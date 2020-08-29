@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Biography - Aoife Soden Glass</title>
+        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="css/biography.css">
+        <link rel="icon" href="images/icon.png">
+        <link rel="stylesheet" href="css/all.min.css">
+    </head>
+    <body>
+        <!-- starting the navivagition bar -->
+        <div id="navBar">
+            <div class="container">
+                <div class="logoDiv">
+                    <a href="index.html"><img src="images/logo2.png" alt="" class="logo"></a>
+                </div>
+                <div class="buttonDiv" onclick="navBarToggle()">
+                    <div class="bar1"></div>
+                    <div class="bar2"></div>
+                    <div class="bar3"></div>
+                </div>
+                <ul class="collaps">
+                    <li class="li menuItem"><a href="index.html">Home</a></li>
+                    <li class="li menuItem"><a href="artShop.html">Art Shop</a></li>
+                    <li class="li menuItem"><a href="biography.html">Biography</a></li>
+                    <li class="li menuItem"><a href="latestNews.html">Latest News</a></li>
+                    <li class="li menuItem"><a href="cart.html">Cart</a></li>
+                </ul>
+            </div>
+        </div>
+        <!-- Nav bar ends -->
+        <!-- main contents div -->
+        <div class="main">
+            <div class="pageHeading">
+                <div class="container">
+                    <span>Biography</span>
+                </div>
+            </div>
+            <div class="gridBody">
+                <div class="container">
+                    <div class="contentBody">
+                        <div class="contentTitle">
+                            <span>Artist Biography</span>
+                        </div>
+                        <div class="image">
+                            <img src="images/artist.jpg" alt="">
+                        </div>
+                        <div class="text">
+                            <p>Aoife Soden was born in Cavan, Ireland in 1975. As a child she moved to Australia and Papua New Guniea where her childhood was spent exploring the outdoors.
+                            After returning to Brisbane, Australia, Aoife trained as a primary teacher. She received a Bachelor of Teaching (1996), from The Australian Catholic University and a Bachelor of Education (2001), from Queensland University of Technology. Having gained her qualifications Aoife spent thirteen years teaching in Australia and Ireland and traveling the world before returning to her first passion, art.</p>
+                            <p>Aoife has recently completed a Bachelor of Design in Glass and History of Art and Design at The National College of Art and Design, Dublin receiving first class honours. As part of her studies at NCAD Aoife completed an International Student Exchange at Southern Illinois University in 2011. Aoife completed a Leonardo da Vinci work placement in Denmark in 2012. In 2013 Aoife completed research into ‘Glass Studios of Ebeltoft’ having received a Thomas Damman Junior Award. She continued to work as an assistant for a number of studios in the Ebeltoft area and at the Glass Museum Ebeltoft. From 2015-2018 Aoife managed the hotshop at the Glass Museum Ebeltoft where she developed and delivered audience activities and blew production glass for the museum. She also developed her own glass range and unique glass artworks. Aoife is now concentrating on her own glass production line and glass art work.</p>
+                            <p>Her work has been exhibited in a number of exhibitions in Ireland and also in ‘Elements’, Shengling Gallery Shanghai China (2012), Elements Art Shanghai (2012) and ‘Engaging With Glass’, Traver Gallery, Tacoma, WA, US (2012). The Fláneur: Recent Graduates from NCAD DIT & IDAT’ at Oliver Cornet Gallery, Dublin (2012). Most recently Aoife exhibited as part of Gather Shanghai China Xuhai Art Museum (2013).  She also completed a artist residency in Nuutajärvi Glass Village in Finland in 2016. In 2018 she presented a solo exhibition Baunhøj Mølle in Grenaa and was awarded the Irish Future Makers Emerging Maker Prize from The Design and Crafts Council of Ireland.</p>
+                        </div>
+                    </div>
+                    <!-- the action pannel -->
+                    <div id="actionPanel">
+                        <form action="searchResults.html" class="searchBox sub">
+                            <input type="text" name="name" class="search">
+                            <button type="submit" class="btn">Search</button>
+                        </form>
+                        <div class="recentPost sub">
+                            <div class="title">
+                                <span>recent posts</span>
+                            </div>
+                            <!-- <div class="post">
+                                <a href="#" class="postTitle">Feeling Blue</a>
+                            </div> -->
+                        </div>
+                        <div class="catagory sub">
+                            <div class="title">
+                                <span>category</span>
+                            </div>
+                            <div class="box">
+                                <div class="catg">
+                                    <a href="artShop.html">Art Shop</a>
+                                </div>
+                                <div class="catg">
+                                    <a href="latestNews.html">News</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- bottom navigation section starting -->
+        <div id="bottomNav">
+            <div class="container">
+                <div class="addressDiv subDiv">
+                    <span class="subDivTitle">
+                        you can by the glass…
+                    </span>
+                    <div class="addressMain">
+                        <div class="address">
+                            <span>* Glasmuseet Ebeltoft, 8 Strandvejen, 8400, Ebeltoft, Denmark
+                            http://glasmuseet.dk/116545-2/</span>
+                        </div>
+                        <div class="address">
+                            <span>* NR4 Kunsthandværk Design/Interiør  Jægergårdsgade 51, 8000
+                            Aarhus C ph: 21690952 web:  http://www.nr4.dk</span>
+                        </div>
+                        <div class="address">
+                            <span>*So Fine Art Editions, 2nd Floor Powerscourt Townhouse Centre, 59 South William Street, Dublin 2, Ireland https://www.sofinearteditions.com</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="navDiv subDiv">
+                    <ul class="navigation">
+                        <li class="subDivTitle">
+                            navigate
+                        </li>
+                        <li class="item"><a href="index.html">Home</a></li>
+                        <li class="item"><a href="artShop.html">Art shop</a></li>
+                        <li class="item"><a href="biography.html">biography</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!-- bottom navigation finished -->
+        <div id="footer">
+            <div class="toTopButton" onclick="window.scrollTo(0,0)">
+                <span><i class="fas fa-angle-double-up"></i></span>
+            </div>
+            <div class="content">
+                <span>Copyright © 2020 Aoife Soden Glass</span>
+            </div>
+        </div>
+        <script type="text/javascript" src="js/main.js"></script>
+    </body>
+</html>

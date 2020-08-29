@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Art Shop - Aoife Soden Glass</title>
+        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="css/artShop.css">
+        <link rel="icon" href="images/icon.png">
+        <link rel="stylesheet" href="css/all.min.css">
+    </head>
+    <body>
+        <!-- starting the navivagition bar -->
+        <div id="navBar">
+            <div class="container">
+                <div class="logoDiv">
+                    <a href="index.html"><img src="images/logo2.png" alt="" class="logo"></a>
+                </div>
+                <div class="buttonDiv" onclick="navBarToggle()">
+                    <div class="bar1"></div>
+                    <div class="bar2"></div>
+                    <div class="bar3"></div>
+                </div>
+                <ul class="collaps">
+                    <li class="li menuItem"><a href="index.html">Home</a></li>
+                    <li class="li menuItem"><a href="artShop.html">Art Shop</a></li>
+                    <li class="li menuItem"><a href="biography.html">Biography</a></li>
+                    <li class="li menuItem"><a href="latestNews.html">Latest News</a></li>
+                    <li class="li menuItem"><a href="cart.html">Cart</a></li>
+                </ul>
+            </div>
+        </div>
+        <!-- Nav bar ends -->
+        <!-- main contents div -->
+        <div class="main">
+            <div class="pageHeading">
+                <div class="container">
+                    <span>Art shop</span>
+                </div>
+            </div>
+            <div class="gridBody">
+                <div class="container">
+                    <div class="contentBody">
+                        <div class="productDivs">
+                            <!-- <div class="product">
+                                <a href="shopItem.html"><img src="images/art shop/product 1.jpg" alt=""></a>
+                                <div class="content">
+                                    <div class="title">
+                                        <a href="#">Feeling Blue</a>
+                                    </div>
+                                    <div class="price">
+                                        <span>$50.00</span>
+                                    </div>
+                                    <div class="text">
+                                        <span></span>
+                                    </div>
+                                </div>
+                            </div> -->
+                        </div>
+                    </div>
+                    <!-- the action pannel -->
+                    <div id="actionPanel">
+                        <form action="searchResults.html" class="searchBox sub">
+                            <input type="text" name="name" class="search">
+                            <button type="submit" class="btn">Search</button>
+                        </form>
+                        <div class="recentPost sub">
+                            <div class="title">
+                                <span>recent posts</span>
+                            </div>
+                            <!-- <div class="post">
+                                <a href="#" class="postTitle">Feeling Blue</a>
+                            </div> -->
+                        </div>
+                        <div class="catagory sub">
+                            <div class="title">
+                                <span>category</span>
+                            </div>
+                            <div class="box">
+                                <div class="catg">
+                                    <a href="artShop.html">Art Shop</a>
+                                </div>
+                                <div class="catg">
+                                    <a href="latestNews.html">News</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- bottom navigation section starting -->
+        <div id="bottomNav">
+            <div class="container">
+                <div class="addressDiv subDiv">
+                    <span class="subDivTitle">
+                        you can by the glass…
+                    </span>
+                    <div class="addressMain">
+                        <div class="address">
+                            <span>* Glasmuseet Ebeltoft, 8 Strandvejen, 8400, Ebeltoft, Denmark
+                            http://glasmuseet.dk/116545-2/</span>
+                        </div>
+                        <div class="address">
+                            <span>* NR4 Kunsthandværk Design/Interiør  Jægergårdsgade 51, 8000
+                            Aarhus C ph: 21690952 web:  http://www.nr4.dk</span>
+                        </div>
+                        <div class="address">
+                            <span>*So Fine Art Editions, 2nd Floor Powerscourt Townhouse Centre, 59 South William Street, Dublin 2, Ireland https://www.sofinearteditions.com</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="navDiv subDiv">
+                    <ul class="navigation">
+                        <li class="subDivTitle">
+                            navigate
+                        </li>
+                        <li class="item"><a href="index.html">Home</a></li>
+                        <li class="item"><a href="artShop.html">Art shop</a></li>
+                        <li class="item"><a href="biography.html">biography</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!-- bottom navigation finished -->
+        <div id="footer">
+            <div class="toTopButton" onclick="window.scrollTo(0,0)">
+                <span><i class="fas fa-angle-double-up"></i></span>
+            </div>
+            <div class="content">
+                <span>Copyright © 2020 Aoife Soden Glass</span>
+            </div>
+        </div>
+        <script type="text/javascript" src="js/main.js"></script>
+        <script type="text/javascript" src="js/artShop.js"></script>
+    </body>
+</html>
